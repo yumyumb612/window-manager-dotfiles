@@ -1,0 +1,32 @@
+Config {
+        -- appearance
+        font = "xft:Barlow Medium:size=10:regular:antialias=true"
+        , bgColor = "#171a20"
+        , fgColor = "#FFFFFF"
+        -- , position = TopW L 90
+        , position = Static { xpos = 10 , ypos = 5, width = 1200, height = 25 }
+        , border = NoBorder
+        , borderColor = "#696969"
+
+        -- layout
+        , sepChar =  "%"   -- delineator between plugin names and straight text
+        , alignSep = "}{"  -- separator between left-right alignment
+        , template = "   %StdinReader% }{ <action=`$(moji_notif)` button=1>%date%</action>   "
+
+        -- general behavior
+        , lowerOnStart =     True    -- send to bottom of window stack on start
+        , hideOnStart =      False   -- start with window unmapped (hidden)
+        , allDesktops =      True    -- show on all desktops
+        , overrideRedirect = True    -- set the Override Redirect flag (Xlib)
+        , pickBroadest =     False   -- choose widest display (multi-monitor)
+        , persistent =       True    -- enable/disable hiding (True = disabled)
+
+        , commands = 
+                [ 
+                        -- Run Com "uname" ["-s","-r"] "" 36000
+                        Run Date "%_d %b %Y %a   |   %H:%M:%S" "date" 10
+                        , Run StdinReader
+                ]
+        
+        }
+-- "-*-Fixed-Bold-R-Normal-*-10-*-*-*-*-*-*-*"
