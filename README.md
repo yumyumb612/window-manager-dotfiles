@@ -7,14 +7,14 @@
   <hr>
   
   <h2>VScode</h2>
-  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/main/dwm/screenshots/vscode.png?raw=true"/>
+  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/dwm/screenshots/vscode.png?raw=true"/>
   
   <h2>Dmenu</h2>
-  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/main/dwm/screenshots/desktop.png?raw=true"/>
+  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/dwm/screenshots/desktop.png?raw=true"/>
   
   <h2>Terminal (Alacritty)</h2>
-  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/main/dwm/screenshots/alacritty.png?raw=true"/>
+  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/dwm/screenshots/alacritty.png?raw=true"/>
   
   <h2>Discord</h2>
-  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/main/dwm/screenshots/discord.png?raw=true"/>
+  <img src="https://github.com/yumyumb612/window-manager-dotfiles/blob/dwm/screenshots/discord.png?raw=true"/>
 </div>
